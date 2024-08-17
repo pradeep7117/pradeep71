@@ -38,50 +38,6 @@ section{
   font-size: 2.8em;
   font-weight: 600;
 }
-.animated-text {
-  position: relative;
-  height: 70px;
-  overflow: hidden;
-}
-
-.animated-text h3 {
-  color: #4e9eff;
-  font-size: 3em;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 1px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: slide-in 2s infinite;
-}
-
-@keyframes slide-in {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-@keyframes text-move{
-  0%{
-    margin-top: 0;
-  }
-  25%{
-    margin-top: -70px;
-  }
-  50%{
-    margin-top: -140px;
-  }
-  75%{
-    margin-top: -70px;
-  }
-  100%{
-    margin-top: 0;
-  }
-}
 
 .btn{
   color: #fff;
