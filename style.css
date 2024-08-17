@@ -50,10 +50,6 @@ section{
   font-weight: 700;
   line-height: 70px;
   letter-spacing: 1px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: slide-in 2s infinite;
 }
 
 @keyframes slide-in {
